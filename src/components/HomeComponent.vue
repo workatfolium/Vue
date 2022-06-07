@@ -11,7 +11,7 @@
 
     <tbody>
         <tr>
-            <td>{{ getData().name }}</td>  
+            <td>{{ getData().name }}</td>
             <td>{{ getData().email }}</td>
             <td>+91{{ getData().mobile }}</td>
         </tr>
@@ -24,15 +24,15 @@
 export default {
     name: 'HomeComponent',
     data() {
-      return {
-         email : 'johndoe@mailinator.com',
-         name  : 'John Doe'
-      } 
+        return {
+            email: 'johndoe@mailinator.com',
+            name: 'John Doe'
+        }
     },
     methods: {
         getData() {
             return {
-                name : this.name,
+                name: this.name,
                 email: this.email,
                 mobile: 6355637919,
             }
