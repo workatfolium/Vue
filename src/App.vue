@@ -15,6 +15,7 @@
   </li>
 </ul>
 <HtmlBinding />
+<ClassBinding />
 </template>
 
 <script>
@@ -27,6 +28,7 @@ import ForLoop from "./components/ForLoop.vue"
 import ChildComponent from "./components/ChildComponent.vue"
 import Reusable from "./components/Reusable.vue"
 import HtmlBinding from "./components/HtmlBinding.vue"
+import ClassBinding from "./components/ClassBinding.vue"
 
 export default {
     name: 'App',
@@ -39,7 +41,8 @@ export default {
         ForLoop,
         ChildComponent,
         Reusable,
-        HtmlBinding
+        HtmlBinding,
+        ClassBinding
     },
     data(){
       return {
