@@ -14,6 +14,8 @@
   <Reusable :data="item" :getUserName="getUserName" />
   </li>
 </ul>
+<HtmlBinding />
+<ClassBinding />
 </template>
 
 <script>
@@ -25,6 +27,8 @@ import Conditions from "./components/Conditions.vue"
 import ForLoop from "./components/ForLoop.vue"
 import ChildComponent from "./components/ChildComponent.vue"
 import Reusable from "./components/Reusable.vue"
+import HtmlBinding from "./components/HtmlBinding.vue"
+import ClassBinding from "./components/ClassBinding.vue"
 
 export default {
     name: 'App',
@@ -36,7 +40,9 @@ export default {
         Conditions,
         ForLoop,
         ChildComponent,
-        Reusable
+        Reusable,
+        HtmlBinding,
+        ClassBinding
     },
     data(){
       return {
