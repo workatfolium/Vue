@@ -46,7 +46,7 @@ export default {
            email:'jayrajsinhsolanki.folium@gmail.com'
         },
         getData(){
-           alert('function called');
+           alert('function called from App component');
         },
       users:[
         {name: 'john doe',email:'johndoe@mailinator.com'},
