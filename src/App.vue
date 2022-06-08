@@ -11,7 +11,7 @@
 <h1>Reusable Component (data passed as an loop array from App component)</h1>
 <ul style="list-style:none;">
   <li v-for="item in users" :key="item">
-  <Reusable :data="item" />
+  <Reusable :data="item" :getUserName="getUserName" />
   </li>
 </ul>
 </template>
@@ -47,6 +47,9 @@ export default {
         },
         getData(){
            alert('function called from App component');
+        },
+        getUserName(data){
+             alert(data)
         },
       users:[
         {name: 'john doe',email:'johndoe@mailinator.com'},

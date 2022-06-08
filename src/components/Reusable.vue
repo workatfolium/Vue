@@ -1,7 +1,6 @@
 <template>
 <div style="background-color:aquamarine;"> 
-    <h4>Name : {{ data.name }}</h4>
-    <h4>Email : {{ data.email }}</h4>
+    <h4>Name : {{ data.name }}  <button v-on:click="getUserName(data.name)">Alert Name</button> | Email : {{ data.email }} <button v-on:click="getUserName(data.email)">Alert Email</button></h4>
 </div>
 </template>
 
@@ -9,7 +8,8 @@
 export default {
     name : "Reusable",
     props:{
-        data:Object
+        data:Object,
+        getUserName:Function
     }
 }
 </script>
