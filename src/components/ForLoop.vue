@@ -32,12 +32,12 @@ export default {
     data() {
         return {
             technologies:[
-               'php',
-               'laravel',
-               'vue',
-               'javascript',
-               'python',
-               'react'
+               'Php',
+               'Laravel',
+               'Vue',
+               'Javascript',
+               'Python',
+               'React',
             ],
             languageswithframeworks: [{
                     language: 'php',
