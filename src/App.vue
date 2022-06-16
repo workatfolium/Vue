@@ -1,5 +1,5 @@
 <template>
-<!-- <img alt="vue logo" src="./assets/logo.png"> -->
+<img alt="vue logo" src="./assets/logo.png">
 <HelloWorld msg="I am Hello World Component!"></HelloWorld>
 <HomeComponent />
 <InputValue />
