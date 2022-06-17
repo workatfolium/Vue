@@ -75,4 +75,3 @@ export default {
     text-align: center;
 }
 </style>
-<!-- till reusable -->
