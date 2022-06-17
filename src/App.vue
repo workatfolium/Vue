@@ -75,5 +75,4 @@ export default {
     text-align: center;
 }
 </style>
-
-<!-- bot direct push  -->
+<!-- till reusable -->
